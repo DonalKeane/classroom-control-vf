@@ -47,3 +47,4 @@ node default {
     ensure => file,
     content => "Hello im Donal \and i learned this \n",
   }
+}
