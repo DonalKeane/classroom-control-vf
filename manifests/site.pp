@@ -44,4 +44,9 @@ node default {
   #   class { 'my_class': }
   include users
   include skeleton
+  notify { 'This is for no specific node': }
+}
+
+node 'donalkeane.puppetlabs.vm' {
+  notify { 'This is a node specific classification BARK': }
 }
