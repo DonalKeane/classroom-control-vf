@@ -44,6 +44,6 @@ node default {
   #   class { 'my_class': }
   exec { 'cowsay motd' :
     command  => '/usr/local/bin/cowsay 'welcome to ${::fqdn}!' > /etc/motd,
-    creates => 'etc/motd',
+    creates => '/etc/motd',
   }
 }
