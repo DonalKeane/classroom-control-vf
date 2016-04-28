@@ -39,5 +39,7 @@ ini_setting { 'random ordering':
 # specified in the console for that node.
 
 node default {
-
+  if $::isvirtual {
+    notify { "This is a virtual machine Donal":}
+  }
 }
