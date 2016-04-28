@@ -1,1 +1,1 @@
-include nginxT
+include nginx
