@@ -1,4 +1,4 @@
-class nginxT {
+class nginx {
   File {
     owner  => 'root',
     group  => 'root',
