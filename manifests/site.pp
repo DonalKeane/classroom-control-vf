@@ -40,6 +40,6 @@ ini_setting { 'random ordering':
 
 node default {
   if $::isvirtual {
-    notify { "This is a virtual machine Donal":}
+    notify { 'This is a virtual machine Donal' : }
   }
 }
