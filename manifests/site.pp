@@ -39,7 +39,5 @@ ini_setting { 'random ordering':
 # specified in the console for that node.
 
 node default {
-  $msg = hiera('message')
-  
-  notify { $msg: }
+  include nginx
 }
