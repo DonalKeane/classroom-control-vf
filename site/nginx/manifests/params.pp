@@ -2,7 +2,7 @@ class nginx::params {
   case $::osfamily {
     'redhat','debian' : {
       $package = 'nginx'
-      $owner = 'dkeane'
+      $owner = 'root'
       $group = 'root'
       $docroot = '/var/www'
       $confdir = '/etc/nginx'
